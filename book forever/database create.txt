@@ -1,0 +1,12 @@
+CREATE TABLE [dbo].[Books] (
+    [Id]            INT           IDENTITY (1, 1) NOT NULL,
+    [name_of_uploder]          VARCHAR (50)  NULL,
+    [author]       VARCHAR (250) NULL,
+    [categoery]      varchar(250) NULL,
+    [sub_categoery]      varchar(250) NULL,
+    [price]       int  NULL,
+    [Extra_info]         VARCHAR (50)  NULL,
+   
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
